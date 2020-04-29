@@ -5,12 +5,12 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MATH CAPS ZA -- HOME</title>
+    <title>MoMaths -- South African Math Tutoring with CAPS</title>
 </head>
 <body>
     <header>
         <div class="header__logo-box">
-            <h1 class="logo__heading">MATH ZA</h1>
+            <h1 class="logo__heading">MoMath</h1>
         </div>
         <input type="checkbox" name="nav__toggle" id="nav__toggle" class="nav__toggle">
         <label for="nav__toggle" class="nav-toggle-label"><span></span></label>
