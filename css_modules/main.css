@@ -1,4 +1,8 @@
 main {
+    margin-top: 1rem;    
+}
+
+section + section {
     margin-top: 1rem;
 }
 
@@ -20,12 +24,36 @@ main {
     justify-content: center;
 }
 
+.info-only {
+    box-shadow: 0 0;
+
+}
+
 .a-card h3 {
     margin: 0 0 0.5rem 0.5rem; 
 }
 
 .a-card p {
-    margi-top: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.a-card button {
+    margin: 0.5rem 1rem;
+    padding: 1rem;
+}
+
+.full-width {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.section-title {
+    margin-left: 1rem;
+}
+
+.section-copy {
+    margin-top: 1rem;
 }
 
 @media screen and (min-width: 800px) {

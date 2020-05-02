@@ -90,6 +90,10 @@ nav a:hover {
     color: rgba(0, 0, 0, 0.7);
 }
 
+.active {
+    font-weight: bold;
+}
+
 .nav__toggle:checked ~ nav {
     transform: scale(1, 1)
 }
