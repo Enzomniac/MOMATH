@@ -3,14 +3,40 @@ include("header.php");
 ?>
     <main>
         <section class="full-width">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cumque tenetur numquam minima placeat ea voluptatum perferendis quidem, voluptate nihil consequuntur iure quas. Voluptatem perspiciatis dolor itaque, minima pariatur magnam repellendus ad eum? Possimus aliquid voluptas, nisi perspiciatis vel tempora porro doloribus, rem impedit ipsam cupiditate minima! Quo quidem voluptas corporis inventore omnis obcaecati numquam placeat maiores, fugiat illum sapiente natus magni, quas ducimus nam architecto neque, odit quae illo laudantium. Exercitationem iure magnam porro. Corrupti accusamus recusandae alias expedita architecto labore, quasi necessitatibus impedit, totam quidem excepturi ad sed. Alias voluptate a dolore repellat iusto iure nulla fuga dolorum.
-        </section>
-        <section class="of-cards">
-            <div class="a-card">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab excepturi  earum reprehenderit tempora aut corporis quisquam, nihil praesentium laborum?
-            </div>
-            <div class="a-card">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam sed repellat dicta quam. Odio ratione impedit repellendus debitis commodi? Eius?
+            <div class="message-notification">NOTIFICATION AREA</div>
+            <div class="contact">
+                <div class="contact-details">
+                    <div class="a-detail">
+                        email: <strong><a href="mailto:richard@byteflo.co.za">richard@byteflo.co.za</a></strong>
+                    </div>
+                    <div class="a-detail">
+                        phone: <strong><a href="tel:+27799622990">079 962 2990</a></strong>
+                    </div>
+                    <div class="a-detail address">
+                        <div class="address-label">
+                            address:
+                        </div>
+                        <div class="address-info"><strong>
+                            5b Moolman Street       <br>
+                            Swellendam              <br>
+                            6740</strong>
+                        </div>
+                    </div>
+                </div>
+                <form action="contact.php" class="form" method="post">
+                    <div class="form__row">
+                        <label for="name" class="label__name">Name:</label>
+                        <input type="text" class="input__name" placeholder="YOUR NAME" name="aName">
+                    </div>
+                    <div class="form__row">
+                        <label for="email" class="label__email">Email:</label>
+                        <input type="text" class="input__email" placeholder="YOUR EMAIL" name="email">
+                    </div>
+                    <textarea name="message" id="" cols="30" rows="10" class="input__text-area" placeholder="YOUR MESSAGE HERE"></textarea>
+                    <button class="button">
+                        Send Message
+                    </button>
+                </form>
             </div>
         </section>
     </main>

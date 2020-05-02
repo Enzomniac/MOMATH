@@ -1,9 +1,9 @@
 <?php
 
-/* foreach ($_SERVER as $key => $value) {
+foreach ($_POST as $key => $value) {
     echo($key . " => " . $value);
     echo("<br>");
-} */
+}
     
 function checkActive($checkThis) {    
     $currentUrl = $_SERVER['PHP_SELF'];    
