@@ -47,6 +47,7 @@
 .message-notification {
     background: rgb(179, 226, 179);
     text-align: center;
+    padding: 1rem;
 }
 
 @media screen and (min-width: 800px) {
