@@ -22,10 +22,12 @@ function checkMessagePost() {
         'message' => '',
         'human' => ''     
     );
-    if (!$_POST) {
-        echo("First Vist");
+    if (!$_POST) {        
         $messageControl['firstVisit'] = "none";
     }   elseif ($_POST['aName'] && $_POST['email'] && $_POST['message'] && ($_POST['human'] == strval(12)) ) {
+        $subject = "Query from More Math website";
+        $sent = mail($_POST['email'], $subject, $_POST['message']);
+        echo($sent);
         $messageControl['htmlMessage'] .= 'Message sent succesfully, I will respond as soon as possible';
     }   else    {
         if (!$_POST['aName']) {
