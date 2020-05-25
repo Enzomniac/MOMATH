@@ -13,6 +13,10 @@ function checkActive($checkThis) {
     }   
 }
 
+function sendMail() {
+    echo("Sending Mail");
+}
+
 function checkMessagePost() {
     $messageControl = array(
         'firstVisit' => 'block',

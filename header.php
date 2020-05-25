@@ -20,7 +20,7 @@ include('functions.php');
         <nav class="header__nav-box">
             <ul class="nav__list">
                 <li class="nav__link"><a href="index.php" class="nav__anchor <?php checkActive("index") ?>" >HOME</a></li>
-                <li class="nav__link"><a href="learn.php" class="nav__anchor <?php checkActive("learn") ?>">LEARN</a></li>
+                <li class="nav__link"><a href="learn.php" class="nav__anchor <?php checkActive("learn") ?>">LEARN</a></li>                
                 <li class="nav__link"><a href="contact.php" class="nav__anchor <?php checkActive("contact") ?>">CONTACT</a></li>
                 <li class="nav__link"><a href="signup.php" class="nav__anchor <?php checkActive("signup") ?>">SIGN UP</a></li>
             </ul>
